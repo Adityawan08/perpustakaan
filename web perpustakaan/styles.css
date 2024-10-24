@@ -1,0 +1,175 @@
+body{
+    background-color: rgb(252, 237, 215);
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kepala{
+    display: flex;
+    background-color: rgb(246, 246, 242);
+    padding: 10px;
+}
+
+.kepalaLogo img{
+    height: 100px;
+}
+
+.kepalaTitle{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.kepalaTitle a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.kepalaTitle p>a{
+    font-size: 12px;
+}
+
+.nav{
+    background-color: black;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.navItem{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 20px;
+}
+
+.navItem a{
+    color: white;
+    text-decoration: none;
+}
+
+.navItem a:hover{
+    color: cadetblue;
+}
+
+.konten{
+    width: 80%;
+    margin: auto;
+}
+.konten h1{
+    color: darkolivegreen;
+    font-size: 35px;
+    text-align: center;
+}
+.konten h2{
+    color: darkgreen;
+    font-size: 24px;
+    text-align: center;
+}
+
+.konten p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: cadetblue;
+    font-size: 19px;
+    text-align: center;
+}
+
+.tabel{
+    border-spacing: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.kepalaTabel{
+    background-color: beige;
+}
+
+.kepalaTabel th{
+    padding: 10px;
+    text-align: left;
+}
+
+.kontenTabelGanjil{
+    background-color: azure;
+}
+
+.kontenTabelGenap{
+    background-color: aliceblue;
+}
+
+.kontenTabelGenap td{
+    padding: 10px;
+}
+
+.kontenTabelGanjil td{
+    padding: 10px;
+}
+.kontenTabelGanjil:hover{
+    background-color: bisque;
+}
+
+.kontenTabelGenap:hover{
+    background-color: bisque;
+}
+td>img{
+    width: 100px;
+}
+
+.form_group{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
+
+.form_group label{
+    display: block;
+    font-size: 20px;
+    color: rgb(135,135,135);
+}
+
+.form_group input{
+    display: block;
+    margin-top: 10px;
+    width: 40%;
+    border-radius: 5px;
+    padding: 5px 5px 5px 25px;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 1px;
+}
+
+input#ig{
+    background-image: url("pngegg.png");
+}
+
+input#fb{
+    background-image: url("pngegg\ \(1\).png");
+}
+
+input#wa{
+    background-image: url("pngegg\ \(2\).png");
+}
+
+.btn{
+    width: 100px;
+    height: 25px;
+    margin-left: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: green;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.btn a{
+    color: aliceblue;
+    text-decoration: none;
+}
